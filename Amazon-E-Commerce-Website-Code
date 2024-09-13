@@ -1,0 +1,992 @@
+##HTML
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+    <header>
+<!-- Nav-bar -->
+            <div class="nav-bar">
+                <!-- Box-1 -->
+                <div class="nav-bar-box1 border" id="hover-1">
+                    <img src="https://amazon-blogs-brightspot-lower.s3.amazonaws.com/about/a9/af/27a4ef844ac38129d0fa460675fb/amazon-logo.svg" alt="" height="36" width="110">
+                </div>
+                <!-- Box-2 -->
+                <div class="nav-bar-box2 border" id="hover-1">
+                    <div class="nav-location-icon">
+                        <i class="fa-solid fa-location-dot" id="location-icon"></i>
+                    </div>
+                    <div class="nav-font">
+                        <p class="font-1">Delivery to</p>
+                    <p class="font-2">Update location</p>   
+                    </div>
+                </div>
+                <!-- Box-3 -->
+                <div class="nav-bar-box3">
+                    <select name="" id="" class="select-all">
+                        <option value="">ALL</option>
+                    </select>
+                    <input type="text" id="nav-search" placeholder="Search Amazon.in">
+                    <div class="nav-icon">
+                        <i class="fa-solid fa-magnifying-glass"  id="search-icon"></i>
+                    </div>
+                </div>
+
+                <div class="nav-bar-flag-box4 border" id="hover-1">
+                    <img src="https://1.bp.blogspot.com/-2w418XuVFy0/YRFUYFl8VPI/AAAAAAAAIqw/WHu_0oBFNOIerAsgKSB-p9HSye4tzPlPgCLcBGAsYHQ/s1714/india.png" width="35px" height="32px" alt="india flag">
+                    <select name="" id="" class="select-lang">
+                        <option value="" class="lang">EN</option>
+                    </select>
+                </div>
+
+                <div class="nav-bar-box5 border" id="hover-1">
+                    <p class="font-3">Hello, sign in</p>
+                    <p class="font-4">Account & Lists</p>
+                </div>
+
+                <div class="nav-bar-box6 border">
+                    <p class="font-5">Returns</p>
+                    <p class="font-6">& Orders</p>
+                </div>
+
+                <div class="nav-bar-box7 border">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <p class="font-7">Cart</p>
+                </div>
+            </div>
+        <!-- </div> -->
+
+<!-- nav-panel -->
+        <div class="nav-bar-2">
+            <div class="nav-bar-2-box-1 border">
+                <i class="fa-solid fa-bars"></i>
+                <p class="nav-bar-2-font-1"> All</p>
+            </div>
+            <div class="nav-bar-2-box-2 border">
+                <div class="select-fresh">
+                    <select name="" id="fresh" >
+                        <option value="" >Fresh</option>
+                    </select>
+                </div>
+                <p class="nav-bar-2-font-2">Amazon miniTV</p>
+                <p class="nav-bar-2-font-2">Sell</p>
+                <p class="nav-bar-2-font-2">Best Sellers</p>
+                <p class="nav-bar-2-font-2">Mobiles</p>
+                <p class="nav-bar-2-font-2">Today's Deals</p>
+                <p class="nav-bar-2-font-2">Customer Service</p>
+            <div class="select-prime">
+                <select name="" id="prime" >
+                    <option value="" >Prime</option>
+                </select>
+            </div>
+                <p class="nav-bar-2-font-2">Electronics</p>
+                <p class="nav-bar-2-font-2">New Releases</p>
+                <p class="nav-bar-2-font-2">Home & Kitchen</p>
+                <p class="nav-bar-2-font-2">Gift Ideas</p>
+                <p class="nav-bar-2-font-2">Amazon Pay</p>
+                <p class="nav-bar-2-font-2">Fashion</p>
+                
+            </div>
+        </div>
+<!-- Image 1 -->
+        <div class="image">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/H24_PC_Header_HH_V2.jpg" alt="background img" width="100%" hight="271">
+            <!-- <div class="img-marging">  
+            </div> -->
+        </div>
+<!-- div-box 1 -->
+        <div class="div-box">
+            <div class="div-box-1">
+                <h1 class="text-font-div-box-1">Celebrate in more exciting ways</h1>
+
+                <div class="slider-box">
+                    <div class="slider-icon-box">
+                        <
+                    </div>
+
+                    <div class="div-box1">
+                        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Holi/SLOT19_GameX.gif" alt="img" class="img-radius">
+                        <p class="div-box1-font">Win iphone 15 this Holi</p>
+                    </div>
+                    <div class="div-box1">
+                        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Holi/Tiger3_240x224.jpg" alt="img" class="img-radius">
+                        <p class="div-box1-font">Blockbuster entertainment</p>
+                    </div>
+                    <div class="div-box1">
+                        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Holi/SLOT19_PM111.jpg" alt="img" class="img-radius">
+                        <p class="div-box1-font">Festive Playlists</p>
+                    </div>
+                    <div class="div-box1">
+                        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Holi/H24_IC_Zomato.jpg" alt="img" class="img-radius">
+                        <p class="div-box1-font">Get up to Rs 150 back</p>
+                    </div>
+                    <div class="div-box1">
+                        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Holi/Slot19_MiniTV3_v2.jpg" alt="img" class="img-radius">
+                        <p class="div-box1-font">Celebrate with family</p>
+                    </div>
+
+                    <div class="slider-icon-box">
+                        >
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+<!-- div-box 2 -->
+        <div class="div-box">
+            <div class="div-box-1">
+                <h1 class="text-font-div-box-1">Post Holi Essentials</h1>
+
+                <div class="slider-box">
+                    <div class="slider-icon-box">
+                        <
+                    </div>
+
+                    <div class="div-box1">
+                        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Holi/H24_Kiosk_S11_BathEssential_V2.jpg" alt="img" class="img-radius">
+                        <p class="div-box1-font">Win iphone 15 this Holi</p>
+                    </div>
+                    <div class="div-box1">
+                        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Holi/H24_Kiosk_S11_Kitchen_V2.jpg" alt="img" class="img-radius">
+                        <p class="div-box1-font">Blockbuster entertainment</p>
+                    </div>
+                    <div class="div-box1">
+                        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Holi/H24_Kiosk_S11_Home_V2.jpg" alt="img" class="img-radius">
+                        <p class="div-box1-font">Festive Playlists</p>
+                    </div>
+                    <div class="div-box1">
+                        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Holi/H24_Kiosk_S11_CleaningEssentials_V2.jpg" alt="img" class="img-radius">
+                        <p class="div-box1-font">Get up to Rs 150 back</p>
+                    </div>
+                    <div class="div-box1">
+                        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Holi/H24_Kiosk_S11_Media.jpg" alt="img" class="img-radius">
+                        <p class="div-box1-font">Celebrate with family</p>
+                    </div>
+
+                    <div class="slider-icon-box">
+                        >
+                    </div>
+                </div> 
+            </div>
+        </div>
+
+<!-- img - 2 -->
+        <div class="img-2">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/H24_PC_Platinum.jpg" alt="img-Techno mobile" width="100%" hight="255">
+        </div>
+<!-- img - 3 -->
+        <div class="img-2">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img18/Fresh/events/Events24/Fresh_banner_2_PC.jpg" alt="img-amazon fresh" width="100%" hight="289">
+        </div>
+<!-- img - 4 -->
+        <div class="img-2 remove">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/SLOT5A_V2_PC_01.jpg" alt="Let the fun begin" width="100%" hight="60" class="no-border">
+        </div>
+<!-- img-merge in a one container -->
+        <div class="img-container">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/Slot-5_a_PCrev.jpg" alt="img-Harbal gulal" class="img-c">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/SLOT5A_PC_V4_PICHKARI.jpg" alt="" class="img-c">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/SLOT5A_V2_PC_04.jpg" alt="" class="img-c">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/SLOT5A_PC_V4_POOJA.jpg" alt="" class="img-c">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/SLOT5B_V3_PC_060001.jpg" alt="" class="img-c">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/SLOT5A_V2_PC_07.jpg" alt="" class="img-c">
+        </div>
+
+        <!-- <div class="img-gap"></div> -->
+        <div class="img-3-aftergap">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/SLOT5B_V3_PC_01.jpg" alt="">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/SLOT5B_V3_PC_02.jpg" alt="">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/SLOT5B_V3_PC_03.jpg" alt="">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/SLOT5B_V3_PC_03.jpg" alt="">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/SLOT5B_PC_JEWELLERY.jpg" alt="">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/SLOT5B_V3_PC_05.jpg" alt="">
+            <img src="https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Holi/SLOT5B_GA_PC_06.jpg" alt="">
+        </div>
+        
+        <div class="div-box">
+            <div class="div-box-1">
+                <h1 class="text-font-div-box-1">Up to 70% off on Festive picks</h1>
+                <div class="slider-box">
+                    <div class="slider-icon-box">
+                        <
+                    </div>
+
+                    <div class="div-box1">
+                        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Holi/H24_Kiosk_S11_BathEssential_V2.jpg" alt="img" class="img-radius">
+                        <p class="div-box1-font">Win iphone 15 this Holi</p>
+                    </div>
+                    <div class="div-box1">
+                        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Holi/H24_Kiosk_S11_Kitchen_V2.jpg" alt="img" class="img-radius">
+                        <p class="div-box1-font">Blockbuster entertainment</p>
+                    </div>
+                    <div class="div-box1">
+                        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Holi/H24_Kiosk_S11_Home_V2.jpg" alt="img" class="img-radius">
+                        <p class="div-box1-font">Festive Playlists</p>
+                    </div>
+                    <div class="div-box1">
+                        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Holi/H24_Kiosk_S11_CleaningEssentials_V2.jpg" alt="img" class="img-radius">
+                        <p class="div-box1-font">Get up to Rs 150 back</p>
+                    </div>
+                    <div class="div-box1">
+                        <img src="https://m.media-amazon.com/images/G/31/Events/img24/Holi/H24_Kiosk_S11_Media.jpg" alt="img" class="img-radius">
+                        <p class="div-box1-font">Celebrate with family</p>
+                    </div>
+
+                    <div class="slider-icon-box">
+                        >
+                    </div>
+                </div> 
+            </div>
+        </div>
+        <!-- <div class="gap-div"></div> -->
+        <div class="down-gap"></div><hr class="hr-1">
+        <div class="down-gap-big">
+            <div class="text-button">
+                <p class="down-box-text">See personalized recommendations</p>
+                <button class="box-button">Sign In</button>
+                <p class="down-box-text-small">New customer? <a class="start-color" href="">Start here.</a></p>
+            </div>
+        </div><hr>
+        <!-- <div class="gap-div"></div> -->
+
+<!-- footer -->
+        <footer>
+            <div class="back-to-top">Back-to-top</div>
+            <div class="footer-ground">
+
+                <div class="foot-list">
+                <div class="foot-list-1">
+                <ul class="f-list-1">
+                    <p class="heading-list">Get to Know Us </p>
+                    <a class="f-link-list" href="">About Us</a>
+                    <a class="f-link-list" href="">Careers</a>
+                    <a class="f-link-list" href=""> Press Releases</a>
+                    <a class="f-link-list" href=""> Amazon Science</a>
+                </ul>
+                </div>
+                <div class="foot-list-2">
+                <ul class="f-list-2">
+                    <p class="heading-list">Connect with Us</p>
+                    <a class="f-link-list" href="">Facebook</a>
+                    <a class="f-link-list" href="">Twitter</a>
+                    <a class="f-link-list" href="">Instagram</a>
+                </ul>
+                </div>
+                <div class="foot-list-3">
+                <ul class="f-list-3">
+                    <p class="heading-list">Make Money with Us</p>
+                    <a class="f-link-list" href=""> Sell on Amazon</a>
+                    <a class="f-link-list" href="">Sell under Amazon Accelerator</a>
+                    <a class="f-link-list" href=""> Protect and Build Your Brand</a>
+                    <a class="f-link-list" href="">Amazon Global Selling</a>
+                    <a class="f-link-list" href="">Become an Affiliate</a>
+                    <a class="f-link-list" href="">Fulfilment by Amazon</a>
+                    <a class="f-link-list" href="">Advertise Your Products</a>
+                    <a class="f-link-list" href=""> Amazon Pay on Merchants</a>
+                </ul>
+                </div>
+                <div class="foot-list-4">
+                <ul class="f-list-4">
+                    <p class="heading-list">Let Us Help You</p>
+                    <a class="f-link-list" href="">COVID-19 and Amazon</a>
+                    <a class="f-link-list" href="">Your Account</a>
+                    <a class="f-link-list" href="">Returns Centre</a>
+                    <a class="f-link-list" href="">100% Purchase Protection</a>
+                    <a class="f-link-list" href="">Amazon App Download</a>
+                    <a class="f-link-list" href="">Help</a>
+                </ul>
+                </div>
+            </div><hr class="hr-marging-bottom">
+            <div class="foot-lang-img">
+                <div  class="foot-lang-img-1">
+                <img src="https://amazon-blogs-brightspot-lower.s3.amazonaws.com/about/a9/af/27a4ef844ac38129d0fa460675fb/amazon-logo.svg" alt="" height="24px" width="80px">
+                </div>
+                <div class="eng">
+                    <i class="fa-solid fa-globe"></i>
+                   <p>English</p>  
+                    <!-- <span class="nav-arrow icp-up-down-arrow"></div> -->
+                        <!-- <p>&#9650; </p> <! &#9650; is the Unicode for ▲ -->
+                        <!-- <p>&#9660; </p> &#9660; is the Unicode for ▼ -->
+                        <div class="arrow-up"></div> 
+                        <div class="arrow-down"></div> 
+                </div>
+                
+            </div>
+                <div class="country-list">
+
+                <ul class="C-list">
+                    <li>Australia</li>
+                    <li>Brazil</li>
+                    <li>Canada</li>
+                    <li>China
+                    <li>France</li>   
+                    <li>Germany</li>   
+                    <li>Italy</li>   
+                    <li>Japan</li>    
+                    <li>Mexico</li>    
+                    <li>Netherlands</li>    
+                    <li>Poland</li>    
+                    <li>Singapore</li>    
+                    <li>Spain</li>    
+                    <li>Turkey</li>    
+                    <li>United Arab Emirates</li> <br>   
+                    <div class="uk-us-c">
+                        <ul>
+                            <li class="down-list">United Kingdom</li> 
+                            <li class="down-list">United States</li>   
+                        </ul>   
+                    </div>
+                </ul>
+                </div>
+            </div>
+
+            <div class="more-on-amazon">
+                <table class="more-on-amazon-list">
+                    <tbody>
+                        <tr>
+                            <td class="font-bold">AbeBooks</td>
+                            <td class="font-bold">Amazon Web Services</td>
+                            <td class="font-bold">Audible</td>
+                            <td class="font-bold">IMDb</td>
+                        </tr>
+                        <tr class="small-font">
+                            <td>Books, art</td>
+                            <td>Scalable Cloud</td>
+                            <td>Download</td>
+                            <td>Movies, TV</td>
+                            
+                        </tr>
+                        <tr class="small-font"><td>& collectibles</td>
+                            <td>Computing Services</td>
+                            <td>Audio Books</td>
+                            <td>& Celebrities</td>
+                        </tr>
+                        
+                        <tr>
+                           <td class="font-bold for-padding ">Shopbop</td> 
+                           <td class="font-bold for-padding ">Amazon Business</td>
+                           <td class="font-bold for-padding ">Prime Now</td>
+                           <td class="font-bold for-padding ">Amazon Prime Music</td>
+                        </tr>
+                        <tr class="small-font">
+                            <td>Designer</td>
+                            <td>Everything For</td>
+                            <td>2-Hour Delivery</td>
+                            <td>100 million songs, ad-free</td>
+                        </tr>
+                        <tr class="small-font">
+                            <td>Fashion Brands</td>
+                            <td>Your Business</td>
+                            <td>on Everyday Items</td>
+                            <td>Over 15 million podcast episodes</td>
+                        </tr>       
+                    </tbody>
+                </table>
+
+                <div class="copyright">
+                    <ul class="cright">
+                        <li>Conditions of Use & Sale</li>
+                        <li class="space-pad">Privacy Notice</li>
+                        <li>Interest-Based Ads</li>
+                    </ul>
+                    <div class="copy-r">
+                        <ul class="copy-r-1">
+                            <li>&copy; 1996-2024, </li>
+                            <li class="li-1">Amazon.com,</li>
+                            <li> Inc. or its affiliates</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        </footer>
+    </header>
+</body>
+</html>
+
+_________________________________________________________________________________________________________________________________________
+
+##CSS
+--------------------------------------------------------------------------------------------------------------------
+
+*{
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: border-box; */
+    box-sizing: border-box;
+}
+
+/* Nav-bar */
+.nav-bar{
+    height: 60px;
+    background-color: #090909;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* BOX-1 */
+.nav-bar-box1{
+    height: 50px;
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 8px 0px 6px;
+    /* background-image: url("https://amazon-blogs-brightspot-lower.s3.amazonaws.com/about/a9/af/27a4ef844ac38129d0fa460675fb/amazon-logo.svg");
+    background-size: cover; */
+}
+/* BOX-2 */
+.nav-bar-box2{
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+     #location-icon{
+        height: 18px;
+        width: 15px;
+        margin-right: 8px 0px 0px;
+        align-items: center;
+        font-weight: 700;
+    }
+    .font-1{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        color: hsla(0, 5%, 78%, 0.874);
+    }
+    .font-2{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+   
+}
+/* BOX-3 */
+.nav-bar-box3{
+    height: 40px;
+    width: 580px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ccccccf1;
+    border-radius: 4px;
+    .select-all{
+        width: 50px;
+        text-align: center;
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border: none;
+    }
+    #nav-search{
+        height: 40px;
+        width: 100%; 
+        font-size: 1.1rem; 
+        border: none;
+        /* border-top-left-radius: 4px; */
+    }
+    .nav-icon{
+        width: 45px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: orange;
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+    }
+    #search-icon{
+        font-size: 1.3rem;
+    }
+}
+
+/* BOX-4 */
+.nav-bar-flag-box4{
+    
+    .select-lang{
+        background-color: #0f1111;
+        color:  hsla(0, 20%, 97%, 0.973);
+        border: none;
+        font-family: 1.1rem;
+        font-weight: 900;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+}
+
+/* BOX-5 */
+.nav-bar-box5{
+    
+    .font-3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        font-weight: 300;
+        color: hsla(0, 20%, 97%, 0.993);
+    }
+    .font-4{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+}
+/* BOX-6 */
+.nav-bar-box6{
+
+    .font-5{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.9rem;
+        font-weight: 300;
+        color: hsla(0, 20%, 97%, 0.993);
+    }
+    .font-6{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1rem;
+        font-weight: 700;
+    }
+}
+/* Box-7 */
+.nav-bar-box7{
+    display: flex;
+    font-size: 1.9rem;
+    .fa-solid{
+        color: orange;
+    }
+    .font-7{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.2rem;
+       margin-left: 3px;
+       margin-top: 10px; 
+       font-weight: 400;
+    }
+}
+
+/* Nav-panel */
+.nav-bar-2{
+    height: 39px;
+    background-color: #151515e8;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+    .nav-bar-2-box-1{
+        width: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.4rem; 
+        font-weight: 300; 
+        margin-left: 30px;
+        /* padding: 0px 0px 0px 8px; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .nav-bar-2-font-1{
+            padding: 0px 0px 0px 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1rem;
+            font-weight: 500;
+        }
+    }
+    .nav-bar-2-box-2{
+        display: inline-flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        /* text-align: center; */
+        justify-content: center;
+        align-items: center;
+        margin-right: 90px;
+       
+        .nav-bar-2-font-2{
+            margin-left: 15px;
+        }
+
+        .select-fresh{
+            margin-left: 15px;
+            
+        }
+        #fresh{
+            background-color: #292828e8;
+            border: none;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        .select-prime{
+            margin-left: 15px;
+            
+        }
+        #prime{
+            background-color: #292828e8;
+            border: none;
+            color: white;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+
+}
+
+.border{
+    border: 1.5px solid transparent;
+    border-radius: 2px;
+}
+.border:hover{
+    border: 1.5px solid white;
+    
+}
+/* img */
+.image{
+     margin-bottom: 24px;
+}
+/* Div-box */
+.div-box{
+    height: 364px;
+    width: 100%;
+    background-color: #EAEDED;
+    padding: 16px 12px;
+
+    .div-box-1{
+        height: 334px;
+        width: 100%;
+        background-color: #EAEDED;
+
+        .text-font-div-box-1{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            margin-left: 22px;
+        }
+
+        .slider-box{
+            height: 288px;
+            /* width: 60px; */
+            display: flex;
+            /* justify-content: center; */
+            align-items: center;
+            justify-content: space-evenly;
+            margin: 15px 0px 15px 0px;
+            .slider-icon-box{
+                height: 41px;
+                width: 41px;
+                background-color: #FFFFFF;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 10px;
+                padding: 6px;
+                font-size: 20px;
+                font-weight: 700;
+            }
+
+            .div-box1{
+                height: 288px;
+                width: 240px;
+                background-color: #FFFFFF;
+                border-radius: 5px;
+               .img-radius{
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+               }
+            }
+
+            .div-box1-font{
+                font-size: 18px;
+                padding: 4px 12px 10px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #007185;
+            }
+        }
+        
+    }
+
+}
+
+/* .img-2-remove{
+    /* position: absolute; */
+    /* border:none; */
+     /* border-bottom: none;     */
+/* } */ 
+
+.img-container{
+     display: flex;
+    
+     .img-c{
+        /* height: 100%; */
+        width: 100%;
+    }
+    
+}
+
+.img-3-aftergap{
+    margin-top: 30px;
+    display: flex;
+    height: 282px;
+    width: 100%;
+}
+
+/* footer */
+/* .gap-div{
+    height: 20px;
+} */
+/* .hr{
+    background-color: firebrick;
+} */
+.down-gap{
+    height: 20px;
+    width: 100%;
+    margin-top: 20px;
+}
+.down-gap-big{
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .text-button{
+        text-align: center;
+    }
+    .down-box-text{
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+    .box-button{
+        height: 28px;
+        width: 300px;
+        border-radius: 4px;
+        font-weight: bold;
+        background-color: orange;
+        
+    }
+    .down-box-text-small{
+        margin-top: 3px;
+        font-size: 13px;
+        .start-color{
+            color: #007185;
+            text-decoration: none;
+        }
+    }
+}
+.back-to-top{
+    margin-top: 20px;
+    height: 50px;
+    background-color: #354355;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.footer-ground{
+    height: 590px;
+    background-color: #232f3E;
+
+    .foot-list{
+        padding-top: 50px;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: space-evenly;
+
+    .heading-list{
+        padding: 10px 0px;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    
+    .foot-list-1{
+       
+    .f-list-1{
+        display:grid;
+        
+    } 
+}
+    .foot-list-2{
+        
+    .f-list-2{
+        display:grid;
+    }
+}
+     .foot-list-3{
+        
+    .f-list-3{
+        display:grid;
+    }
+}
+      .foot-list-4{
+
+    .f-list-4{
+        display:grid;
+    }
+}
+     .f-link-list{
+        text-decoration: none;
+        color: #FFFFFF;
+        padding: 8px 0px;
+        font-size: 14px;
+    }
+    
+}  
+}
+.hr-marging-bottom{
+    margin-top: 50px;
+    
+}
+.foot-lang-img{
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 10px 0px; */
+    .foot-lang-img-1{
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 70px;
+        margin-top: 15px;
+    }
+
+    /* .eng-1{
+        border: #FFFFFF solid 1px;
+    } */
+    .eng{
+        color: #FFFFFF;
+        padding: 0px 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* margin-top: 13px; */
+        font-size: 13px;
+        border: 0.2px rgb(224, 216, 216) solid ;
+        border-radius: 3px;
+        height: 33px;
+        width: 116px;
+        .fa-solid{
+            font-size: 16px;
+            margin: 0px 7.6px;
+        }
+        
+    }
+}
+/* You can also use CSS to create the arrows with more customization options: */
+
+.arrow-up {
+    /* width: 0;
+    height: 0; */
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid white;
+    /* margin-bottom: 12px; */
+    margin-left: 10px;
+    
+}
+.arrow-down {
+    /* width: 0;
+    height: 0; */
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+    margin-top: 12px;
+    /* box-sizing: border-box;
+    padding-right: 10px; */
+}
+
+.country-list{
+    display: flex;
+    justify-content: center;
+    height: 33px;
+    
+    margin-bottom: 25px;
+    margin-left: 18px;
+    .C-list li{
+        display: inline-block;
+        list-style-type: none;
+        color: #f0ebeb;
+        font-size: 14px;
+        padding: 0px 8px;
+        font-style: normal;  
+    }
+}
+
+.uk-us-c{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    .down-list{
+        font-size: 12px;
+        font-style: normal;
+    }
+}
+
+.more-on-amazon{
+    height: 250px;
+    background-color: #131A22;
+    padding: 30px 0px 0px 200px;
+    padding-bottom: 30px;
+
+    .more-on-amazon-list{
+        color:rgb(208, 209, 211);
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .font-bold{
+        color: #FFFFFF;
+        font-weight: bold;
+    }
+
+    .small-font{
+        /* font-size: 12px; */
+    }
+}
+
+.for-padding{
+    padding-top: 20px;
+}
+
+
+.copyright{
+    /* height: 18px; */
+    display: flex;
+    margin: 30px 0px;
+    margin-left: 300px;
+    display: block;
+    .cright{
+        list-style-type: none; 
+        display: flex;
+        color: #DDDDDD;
+        font-size: 12.5px;
+        .space-pad{
+            padding-left: 16px;
+            padding-right: 16px;
+        } 
+        
+    }
+    
+}
+.copy-r{
+    margin-right: 520px;
+    padding-top: 4px;
+     .copy-r-1{
+        color: #DDDDDD;
+        font-size: 12.5px;
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        font-weight: 500;
+        .li-1{
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+     }
+
+}  
+
+/*  */
+
